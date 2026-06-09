@@ -147,6 +147,7 @@ No arquivo `app/Providers/Filament/AdminPanelProvider.php`, dentro do método `p
 A cor padrão do painel é **Amber**. Troque para a cor que você preferir.
 
 📖 [Documentação do painel](https://filamentphp.com/docs/5.x/panel-configuration#introduction)
+
 📖 [Documentação de cores](https://filamentphp.com/docs/5.x/styling/colors)
 
 <details>
@@ -221,6 +222,7 @@ Abra o `draft.yaml` e adicione os campos que estão faltando no model `Post`:
 Adicione também o relacionamento `belongsToMany` entre `Post` e `Category`.
 
 📖 [Sintaxe de models no Blueprint](https://blueprint.laravelshift.com/docs/defining-models/)
+
 📖 [Sintaxe de relacionamentos no Blueprint](https://blueprint.laravelshift.com/docs/model-relationships/)
 
 <details>
@@ -278,8 +280,11 @@ php artisan make:filament-resource Category --generate --simple
 Customize o `form()` e a `table()` de cada Resource para refletir os campos do model.
 
 📖 [Documentação de Resources](https://filamentphp.com/docs/5.x/resources/overview)
+
 📖 [Documentação de Colunas das tabelas](https://filamentphp.com/docs/5.x/tables/columns/overview)
+
 📖 [Documentação de Campos dos formulários](https://filamentphp.com/docs/5.x/forms/overview)
+
 📖 [Gerando uma slug a partir de um título](https://filamentphp.com/docs/5.x/forms/overview#generating-a-slug-from-a-title)
 
 <details>
@@ -336,6 +341,7 @@ class PostForm
 No `PostResource`, adicione um Relation Manager para gerenciar as categorias de um post.
 
 📖 [Documentação de Relation Managers](https://filamentphp.com/docs/5.x/resources/managing-relationships#creating-a-relation-manager)
+
 📖 [Attach / Detach](https://filamentphp.com/docs/5.x/resources/managing-relationships#attaching-and-detaching-records)
 
 <details>
