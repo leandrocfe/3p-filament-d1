@@ -1,0 +1,13 @@
+models:
+  Category:
+    name: string:100
+
+  Post:
+    title: string
+    # TODO: add slug (string, unique)
+    # TODO: add content (longText)
+    # TODO: add published_at (nullable timestamp)
+    # TODO: add the belongsToMany relationship with Category
+
+controllers:
+  # Leave empty for now — Blueprint will generate models, migrations, and factories only
