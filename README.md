@@ -29,7 +29,7 @@ Ao final, estabelecemos dois desafios para quem quiser praticar o que foi visto:
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/leandrocfe/3p-filament-d1
+git clone https://github.com/leandrocfe/3p-filament-d1.git #ou gh repo clone leandrocfe/3p-filament-d1
 cd 3p-filament-d1
 cp .env.example .env
 composer install
